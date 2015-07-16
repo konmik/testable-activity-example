@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 
-public class ControlledActivity extends Activity {
+public abstract class BaseControlledActivity extends Activity {
 
     public static abstract class Controller {
 

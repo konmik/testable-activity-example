@@ -10,7 +10,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivityController extends ControlledActivity.Controller {
+public class MainActivityController extends BaseControlledActivity.Controller {
 
     private Activity activity;
 
