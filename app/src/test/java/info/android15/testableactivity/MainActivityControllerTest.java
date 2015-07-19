@@ -34,7 +34,6 @@ public class MainActivityControllerTest {
     public void before() {
         buttonClickMeOnClickListener = requireOnClick(activity, R.id.buttonClickMe, buttonClickMe);
         controller = new MainActivityController(activity);
-        controller.onCreate(null);
     }
 
     @Test
